@@ -22,11 +22,11 @@ Project URL: https://github.com/iamstannard/homework-relaxr-blog-part-3
 
 | Technical Requirements | Does Not Meet Expectations (0) | Meets Expectations (1) | Exceeds Expectations (2) |
 | --- | --- | --- | --- |
-| Use the `$.ready()` handler to delay your code from executing until all DOM assets have been loaded | --- | --- | --- |
-| Select the appropriate DOM elements with CSS selectors upon a user's click using the `$.click()` handler | --- | --- | --- |
-|Have the text in the `p` tag slide down along with a "Read Less" link in the blog post using,`$.slideDown()`and `$.show()`| --- | --- | --- |
-| Hide the "Read More" link using `$.hide()` | --- | --- | --- |
-| Have the `p` slide up and hide the "Read Less" link using,`$.slideUp()` and `$.hide()` | --- | --- | --- |
-| Show the "Read More" link using `$.show()`| --- | --- | --- |
-| Using the same functions as above, if a user clicks the "Learn More" link in the sidebar, have the `your tag` inside that `your tag` slide down and hide the "Learn More" link using `$.slideDown()` and `$.hide()` | --- | --- | --- |
-|TOTAL: ______/14| --- | --- | --- |
+| Use the `$.ready()` handler to delay your code from executing until all DOM assets have been loaded | --- | --- | 2 |
+| Select the appropriate DOM elements with CSS selectors upon a user's click using the `$.click()` handler | --- | --- | 2 |
+|Have the text in the `p` tag slide down along with a "Read Less" link in the blog post using,`$.slideDown()`and `$.show()`| --- | 1 | --- |
+| Hide the "Read More" link using `$.hide()` | --- | 1 | --- |
+| Have the `p` slide up and hide the "Read Less" link using,`$.slideUp()` and `$.hide()` | --- | 1 | --- |
+| Show the "Read More" link using `$.show()`| --- | 1 | --- |
+| Using the same functions as above, if a user clicks the "Learn More" link in the sidebar, have the `your tag` inside that `your tag` slide down and hide the "Learn More" link using `$.slideDown()` and `$.hide()` | --- | --- | 2 |
+|TOTAL: 9/14| --- | --- | --- |
