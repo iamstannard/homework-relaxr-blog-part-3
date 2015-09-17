@@ -1,4 +1,4 @@
-/*global document, $ */
+/*global document, $, console*/
 
 (function () {
     'use strict';
@@ -9,22 +9,25 @@
 
         var slideDuration = 500; // milliseconds
 
-        function readMore() {
-            console.log('readMore');
+        function readMore(e) {
+            //console.log('readMore');
+            e.preventDefault();
             $('#posts .readmore').hide();
             $('#show-this-on-click').slideDown(slideDuration);
             $('#posts .readless').show();
         }
 
-        function readLess() {
-            console.log('readLess');
+        function readLess(e) {
+            //console.log('readLess');
+            e.preventDefault();
             $('#posts .readless').hide();
             $('#show-this-on-click').slideUp(slideDuration);
             $('#posts .readmore').show();
         }
 
-        function learnMore() {
-            console.log('learnMore');
+        function learnMore(e) {
+            //console.log('learnMore');
+            e.preventDefault();
             $('#sidebar .learnmore').hide();
             $('#learnmoretext').slideDown(slideDuration);
         }
